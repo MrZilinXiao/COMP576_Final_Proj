@@ -1,0 +1,10 @@
+{
+    "test_loss": 1.2974486351013184,
+    "test_f1_weighted": 0.6464656635199237,
+    "test_f1_micro": 0.6521072796934866,
+    "test_f1_macro": 0.48364654336293444,
+    "test_class_report": "              precision    recall  f1-score   support\n\n     neutral       0.78      0.79      0.79      1256\n    surprise       0.53      0.64      0.58       281\n        fear       0.27      0.22      0.24        50\n     sadness       0.46      0.38      0.41       208\n         joy       0.59      0.65      0.62       402\n     disgust       0.40      0.18      0.24        68\n       anger       0.52      0.48      0.50       345\n\n    accuracy                           0.65      2610\n   macro avg       0.51      0.48      0.48      2610\nweighted avg       0.65      0.65      0.65      2610\n",
+    "test_runtime": 4.9223,
+    "test_samples_per_second": 530.243,
+    "test_steps_per_second": 66.433
+}

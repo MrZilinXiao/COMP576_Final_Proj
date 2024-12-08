@@ -1,0 +1,11 @@
+WANDB_PROJECT=2024Fall_576 CUDA_VISIBLE_DEVICES=2 python direct_tuning.py \
+    --exp-name MELD_bert_large \
+    --dataset MELD \
+    --dataset-root ../data \
+    --init-lr 3e-6 \
+    --max-train-epochs 5 \
+    --batch-size 4 \
+    --log-dir ./logs \
+    --save-args \
+    --model bert-large-cased \
+    --experiment-tag bert_large

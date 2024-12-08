@@ -1,0 +1,230 @@
+2024-12-07T06:29:23.693712-0600 INFO loading pretrained PLM...
+2024-12-07T06:29:24.419014-0600 INFO loading prompt utils...
+2024-12-07T06:29:24.422474-0600 INFO model params info: {'total': 355412078, 'trainable': 355412057}
+2024-12-07T06:29:24.422622-0600 INFO building prompt dataset...
+2024-12-07T06:29:24.739921-0600 INFO building prompt dataloader...
+2024-12-07T06:44:27.036588-0600 INFO [32mTrain Epoch 1/5: loss:1.432606, acc:0.521474, weighted-f1: 0.459784, micro-f1: 0.521474[0m
+2024-12-07T06:44:27.037673-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.56      0.88      0.68      4710
+    surprise       0.47      0.25      0.33      1205
+        fear       0.32      0.05      0.09       268
+     sadness       0.43      0.12      0.18       683
+         joy       0.43      0.27      0.33      1743
+     disgust       0.25      0.01      0.03       271
+       anger       0.32      0.16      0.22      1109
+
+    accuracy                           0.52      9989
+   macro avg       0.40      0.25      0.27      9989
+weighted avg       0.48      0.52      0.46      9989
+
+2024-12-07T06:44:56.919954-0600 INFO val Epoch 1/5: loss:1.274725, acc:0.564472, weighted-f1: 0.500627, micro-f1: 0.564472, macro-f1: 0.335436
+2024-12-07T06:44:56.920608-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.56      0.96      0.70       470
+    surprise       0.74      0.27      0.39       150
+        fear       0.00      0.00      0.00        40
+     sadness       0.74      0.13      0.22       111
+         joy       0.53      0.44      0.48       163
+     disgust       1.00      0.09      0.17        22
+       anger       0.55      0.30      0.39       153
+
+    accuracy                           0.56      1109
+   macro avg       0.59      0.31      0.34      1109
+weighted avg       0.58      0.56      0.50      1109
+
+2024-12-07T06:46:06.687595-0600 INFO test Epoch 1/5: loss:1.169542, acc:0.600383, weighted-f1: 0.536026, micro-f1: 0.600383, macro-f1: 0.308992
+2024-12-07T06:46:06.688217-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.60      0.96      0.74      1256
+    surprise       0.70      0.29      0.41       281
+        fear       0.00      0.00      0.00        50
+     sadness       0.57      0.11      0.19       208
+         joy       0.60      0.46      0.52       402
+     disgust       0.00      0.00      0.00        68
+       anger       0.48      0.22      0.30       345
+
+    accuracy                           0.60      2610
+   macro avg       0.42      0.29      0.31      2610
+weighted avg       0.57      0.60      0.54      2610
+
+2024-12-07T07:01:08.130829-0600 INFO [32mTrain Epoch 2/5: loss:1.110063, acc:0.631395, weighted-f1: 0.606424, micro-f1: 0.631395[0m
+2024-12-07T07:01:08.137922-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.71      0.87      0.78      4710
+    surprise       0.58      0.51      0.54      1205
+        fear       0.30      0.10      0.15       268
+     sadness       0.47      0.24      0.32       683
+         joy       0.58      0.55      0.56      1743
+     disgust       0.45      0.13      0.20       271
+       anger       0.43      0.37      0.39      1109
+
+    accuracy                           0.63      9989
+   macro avg       0.50      0.39      0.42      9989
+weighted avg       0.60      0.63      0.61      9989
+
+2024-12-07T07:01:37.962001-0600 INFO val Epoch 2/5: loss:1.158765, acc:0.610460, weighted-f1: 0.582119, micro-f1: 0.610460, macro-f1: 0.433602
+2024-12-07T07:01:37.962218-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.69      0.86      0.76       470
+    surprise       0.60      0.54      0.57       150
+        fear       0.33      0.07      0.12        40
+     sadness       0.57      0.28      0.38       111
+         joy       0.49      0.68      0.57       163
+     disgust       0.26      0.27      0.27        22
+       anger       0.55      0.27      0.37       153
+
+    accuracy                           0.61      1109
+   macro avg       0.50      0.43      0.43      1109
+weighted avg       0.60      0.61      0.58      1109
+
+2024-12-07T07:02:47.669538-0600 INFO test Epoch 2/5: loss:1.076930, acc:0.645211, weighted-f1: 0.625192, micro-f1: 0.645211, macro-f1: 0.448142
+2024-12-07T07:02:47.670169-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.75      0.84      0.79      1256
+    surprise       0.56      0.54      0.55       281
+        fear       0.29      0.10      0.15        50
+     sadness       0.52      0.28      0.37       208
+         joy       0.53      0.72      0.61       402
+     disgust       0.29      0.26      0.27        68
+       anger       0.59      0.30      0.40       345
+
+    accuracy                           0.65      2610
+   macro avg       0.50      0.44      0.45      2610
+weighted avg       0.63      0.65      0.63      2610
+
+2024-12-07T07:17:53.031132-0600 INFO [32mTrain Epoch 3/5: loss:0.914048, acc:0.700070, weighted-f1: 0.687316, micro-f1: 0.700070[0m
+2024-12-07T07:17:53.031911-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.77      0.88      0.82      4710
+    surprise       0.65      0.64      0.64      1205
+        fear       0.47      0.25      0.32       268
+     sadness       0.57      0.39      0.46       683
+         joy       0.67      0.64      0.66      1743
+     disgust       0.49      0.23      0.32       271
+       anger       0.55      0.50      0.52      1109
+
+    accuracy                           0.70      9989
+   macro avg       0.60      0.50      0.54      9989
+weighted avg       0.68      0.70      0.69      9989
+
+2024-12-07T07:18:22.862433-0600 INFO val Epoch 3/5: loss:1.307000, acc:0.614968, weighted-f1: 0.589004, micro-f1: 0.614968, macro-f1: 0.444529
+2024-12-07T07:18:22.862654-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.70      0.84      0.77       470
+    surprise       0.55      0.68      0.61       150
+        fear       0.42      0.12      0.19        40
+     sadness       0.56      0.27      0.36       111
+         joy       0.53      0.64      0.58       163
+     disgust       0.21      0.32      0.25        22
+       anger       0.58      0.25      0.35       153
+
+    accuracy                           0.61      1109
+   macro avg       0.51      0.45      0.44      1109
+weighted avg       0.61      0.61      0.59      1109
+
+2024-12-07T07:19:32.632658-0600 INFO test Epoch 3/5: loss:1.234260, acc:0.637548, weighted-f1: 0.618684, micro-f1: 0.637548, macro-f1: 0.451159
+2024-12-07T07:19:32.633554-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.75      0.83      0.79      1256
+    surprise       0.47      0.65      0.55       281
+        fear       0.30      0.14      0.19        50
+     sadness       0.50      0.25      0.34       208
+         joy       0.55      0.65      0.59       402
+     disgust       0.32      0.31      0.31        68
+       anger       0.61      0.28      0.38       345
+
+    accuracy                           0.64      2610
+   macro avg       0.50      0.45      0.45      2610
+weighted avg       0.63      0.64      0.62      2610
+
+2024-12-07T07:34:28.951854-0600 INFO [32mTrain Epoch 4/5: loss:0.704288, acc:0.767845, weighted-f1: 0.761973, micro-f1: 0.767845[0m
+2024-12-07T07:34:28.952661-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.84      0.90      0.87      4710
+    surprise       0.73      0.76      0.74      1205
+        fear       0.59      0.43      0.49       268
+     sadness       0.67      0.51      0.58       683
+         joy       0.73      0.71      0.72      1743
+     disgust       0.63      0.45      0.52       271
+       anger       0.65      0.61      0.63      1109
+
+    accuracy                           0.77      9989
+   macro avg       0.69      0.62      0.65      9989
+weighted avg       0.76      0.77      0.76      9989
+
+2024-12-07T07:34:58.780943-0600 INFO val Epoch 4/5: loss:1.504777, acc:0.608656, weighted-f1: 0.588906, micro-f1: 0.608656, macro-f1: 0.468317
+2024-12-07T07:34:58.781167-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.70      0.81      0.75       470
+    surprise       0.55      0.66      0.60       150
+        fear       0.39      0.35      0.37        40
+     sadness       0.57      0.34      0.43       111
+         joy       0.51      0.62      0.56       163
+     disgust       0.21      0.27      0.24        22
+       anger       0.68      0.22      0.33       153
+
+    accuracy                           0.61      1109
+   macro avg       0.51      0.47      0.47      1109
+weighted avg       0.61      0.61      0.59      1109
+
+2024-12-07T07:36:08.532626-0600 INFO test Epoch 4/5: loss:1.452383, acc:0.622989, weighted-f1: 0.607612, micro-f1: 0.622989, macro-f1: 0.444356
+2024-12-07T07:36:08.533406-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.74      0.80      0.77      1256
+    surprise       0.48      0.62      0.54       281
+        fear       0.21      0.20      0.20        50
+     sadness       0.43      0.29      0.35       208
+         joy       0.54      0.68      0.60       402
+     disgust       0.29      0.29      0.29        68
+       anger       0.63      0.25      0.35       345
+
+    accuracy                           0.62      2610
+   macro avg       0.47      0.45      0.44      2610
+weighted avg       0.62      0.62      0.61      2610
+
+2024-12-07T07:51:04.917887-0600 INFO [32mTrain Epoch 5/5: loss:0.544619, acc:0.822505, weighted-f1: 0.819633, micro-f1: 0.822505[0m
+2024-12-07T07:51:04.918691-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.88      0.93      0.90      4710
+    surprise       0.77      0.81      0.79      1205
+        fear       0.74      0.57      0.65       268
+     sadness       0.75      0.63      0.69       683
+         joy       0.79      0.78      0.78      1743
+     disgust       0.78      0.61      0.68       271
+       anger       0.74      0.70      0.72      1109
+
+    accuracy                           0.82      9989
+   macro avg       0.78      0.72      0.74      9989
+weighted avg       0.82      0.82      0.82      9989
+
+2024-12-07T07:51:34.761109-0600 INFO val Epoch 5/5: loss:1.922394, acc:0.600541, weighted-f1: 0.574645, micro-f1: 0.600541, macro-f1: 0.447215
+2024-12-07T07:51:34.761322-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.67      0.84      0.74       470
+    surprise       0.58      0.63      0.60       150
+        fear       0.39      0.17      0.24        40
+     sadness       0.56      0.21      0.30       111
+         joy       0.49      0.59      0.54       163
+     disgust       0.27      0.36      0.31        22
+       anger       0.61      0.29      0.40       153
+
+    accuracy                           0.60      1109
+   macro avg       0.51      0.44      0.45      1109
+weighted avg       0.59      0.60      0.57      1109
+
+2024-12-07T07:52:44.508004-0600 INFO test Epoch 5/5: loss:1.839127, acc:0.624521, weighted-f1: 0.602894, micro-f1: 0.624521, macro-f1: 0.438345
+2024-12-07T07:52:44.508733-0600 DEBUG               precision    recall  f1-score   support
+
+     neutral       0.72      0.83      0.77      1256
+    surprise       0.51      0.57      0.54       281
+        fear       0.30      0.18      0.23        50
+     sadness       0.47      0.20      0.28       208
+         joy       0.52      0.62      0.57       402
+     disgust       0.32      0.26      0.29        68
+       anger       0.57      0.30      0.39       345
+
+    accuracy                           0.62      2610
+   macro avg       0.49      0.43      0.44      2610
+weighted avg       0.61      0.62      0.60      2610
+

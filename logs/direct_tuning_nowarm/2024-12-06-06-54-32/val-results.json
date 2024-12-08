@@ -1,0 +1,11 @@
+{
+    "eval_loss": 1.309592604637146,
+    "eval_f1_weighted": 0.6330698758804895,
+    "eval_f1_micro": 0.6411181244364292,
+    "eval_f1_macro": 0.5184197366731368,
+    "eval_class_report": "              precision    recall  f1-score   support\n\n     neutral       0.76      0.79      0.77       470\n    surprise       0.57      0.67      0.61       150\n        fear       0.43      0.23      0.30        40\n     sadness       0.50      0.34      0.41       111\n         joy       0.58      0.64      0.61       163\n     disgust       0.44      0.36      0.40        22\n       anger       0.54      0.52      0.53       153\n\n    accuracy                           0.64      1109\n   macro avg       0.55      0.51      0.52      1109\nweighted avg       0.63      0.64      0.63      1109\n",
+    "eval_runtime": 2.1569,
+    "eval_samples_per_second": 514.158,
+    "eval_steps_per_second": 64.444,
+    "epoch": 5.0
+}

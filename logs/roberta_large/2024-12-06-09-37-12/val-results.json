@@ -1,0 +1,10 @@
+{
+    "eval_loss": 1.8769965171813965,
+    "eval_f1_weighted": 0.614905464163379,
+    "eval_f1_micro": 0.6212804328223624,
+    "eval_f1_macro": 0.47874353540423187,
+    "eval_runtime": 2.1095,
+    "eval_samples_per_second": 525.72,
+    "eval_steps_per_second": 65.893,
+    "epoch": 5.0
+}
